@@ -1,0 +1,16 @@
+# Keep credentials, private keys and local browser/session data out of Git.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*client_secret*.json
+*token*.json
+*cookies*
+*storage-state*
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
